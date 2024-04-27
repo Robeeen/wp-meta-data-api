@@ -15,6 +15,13 @@
         $sitename = get_option('blogname');
 
         echo "Hello" . $sitename;
+       $meta_id = add_metadata('post', 1664, 'Bogura', 'Bangladesh');
+       if( $meta_id ){
+        echo "successfully added" . $meta_id;
+       }else{
+        echo "Error on post id, check again!";
+       }
+
 ?>
 </div>
     
