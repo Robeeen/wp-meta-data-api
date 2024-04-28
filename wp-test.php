@@ -21,6 +21,14 @@
        }else{
         echo "Error on post id, check again!";
        }
+        //edit the custom field in a specific post id 1664
+        //$meta_id = update_metadata('post', 1664, 'Delhi', 'India');
+
+    //
+      //  $data = get_metadata('post', 1664);
+       // echo '<pre>' . print_r($data) . '<pre>';
+   
+       add_post_meta( 1664, 'my_key', '47', true );
 
 ?>
 </div>
