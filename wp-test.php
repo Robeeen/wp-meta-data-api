@@ -24,7 +24,7 @@
         //edit the custom field in a specific post id 1664
         //$meta_id = update_metadata('post', 1664, 'Delhi', 'India');
 
-    //
+      //add_post_meta and add_metadata performs the same job - custom field - not sure why?
       //  $data = get_metadata('post', 1664);
        // echo '<pre>' . print_r($data) . '<pre>';
    
